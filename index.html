@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="shortcut icon" href="assets/snake.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div id="l-content">
+        <div id="l-text">
+          <h1>SSSSnake</h1>
+        </div>
+        <div id="loading">
+          <div id="bar">
+            <div id="progress">
+                <img
+                src="assets/SnakeBody.png"
+                alt=""
+                />
+                <img
+                src="assets/SnakeBody.png"
+                alt=""
+                />
+                <img src="assets/SnakeBody.png" alt="" />
+                <img
+                src="assets/SnakeBody.png"
+                alt=""
+                />
+                <img src="assets/SnakeBody.png" alt="" />
+                <img
+                src="assets/SnakeBody.png"
+                alt=""
+                />
+                <img src="assets/SnakeBody.png" alt="" /><img
+                src="assets/SnakeBody.png"
+                alt=""
+                /><img src="assets/SnakeBody.png" alt="" /><img
+                src="assets/SnakeBody.png"
+                alt=""
+                />
+                <img src="assets/SnakeHead.png" alt="" />
+            </div>
+            <div class="food"></div>
+          </div>
+        </div>
+      </div>
+      <h1 id="l-count"></h1>
+    </div>
+    <div id="game-over">
+       <div id="game-over-card">
+           <h1 id="g-over">Game Over</h1>
+           <div class="g-text">
+             <h2 id="g-score">Score: 0</h2>
+             <h2 id="g-hiscore">High Score: 0</h2>
+           </div>
+           <button id="restart-btn">Restart</button>
+       </div>
+   </div>  
+    <div id="main">
+      <nav>
+        <div class="logo">
+          <img src="assets/snake.png" alt="" />
+        </div>
+        <div class="options">
+          <a href="me.html" id="profile">Me</a>
+        </div>
+      </nav>
+      <div id="hero">
+        <h1>Snake Game</h1>
+        <div id="score-card">
+          <h2 id="score">Score: 0</h1>
+          <h2 id="hiscore">High Score: 0</h1>
+        </div>
+        <div id="player-board">
+          <div id="board"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
