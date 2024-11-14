@@ -67,8 +67,8 @@ Kabir Khan is considering the following improvements for future versions:
 
 If you have any questions, suggestions, or just want to connect with Kabir Khan, you can reach out through:
 
-Github: https://github.com/@weirdshxt
-Instagram: https://www.instagram/@weirdsht
+Github: https://github.com/weirdshxt
+Instagram: https://www.instagram/weirdsht
 Email: weirdsht@yahoo.com
 
 ## Credits
