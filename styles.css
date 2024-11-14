@@ -3,6 +3,16 @@
   src: url(assets/Terasong-mLZ3a.ttf);
 }
 
+@font-face {
+  font-family: "allison script";
+  src: url(assets/allison-script.regular.otf);
+}
+
+@font-face {
+  font-family: "silk serif";
+  src: url(assets/silkserif-regularitalic-webfont.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -359,8 +369,4 @@ header nav li a:hover {
   font-size: 5.5vw;
 }
 
-@media (min-width: 768px) {
-  body {
-    background-color: #000;
-  }
-}
+
