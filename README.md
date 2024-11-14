@@ -1,4 +1,5 @@
 # Snake Game
+LINK:  https://weirdshxt.github.io/snake-game/
 
 A classic Snake game implemented in JavaScript with additional features like difficulty progression, high score tracking, and a loading animation. Developed by Kabir Khan.
 
